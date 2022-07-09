@@ -24,6 +24,10 @@ header {
     font-size: 35px;
 }
 
+.logo a:hover {
+    color: #ED661F;
+}
+
 nav ul {
     display: flex;
     flex-direction: row;
@@ -44,9 +48,44 @@ nav li {
     font-size: 18px;
  }
 
- nav a:hover {
+ nav a:hover, .login-btn a:hover {
     text-decoration: underline;
     text-decoration-color: #ED661F;
-    text-underline-offset: 10px;
-    text-decoration-thickness: 5px;
+    text-underline-offset: 7px;
+    text-decoration-thickness: 4px;
+ }
+
+ .header-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .header-btns a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+ }
+
+ .login-btn {
+    margin-right: 25px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 12px;
+    padding-left: 12px;
+ }
+
+ .get-started-btn {
+    background-color: #ED661F;
+    padding: 16px;
+    border-style: solid;
+    border-color: #ED661F;
+    border-width: 4px;
+ }
+
+ .get-started-btn:hover {
+    background-color: black;   
  }
