@@ -3,6 +3,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+   margin: 0;
+}
+
 /* Header Section */
 header {
     background-color: black;
@@ -169,10 +173,17 @@ nav li {
    text-align: center;
 }
 
+#main {
+   position: relative;
+   left: 5%;
+   width: 95%;
+}
+
+
+/* Why we exist section */
+
 #why-exist {
    left: 5%;
-  
-   position: absolute;
    padding-top: 100px;
    display: flex;
    justify-content: space-between;
@@ -193,22 +204,30 @@ nav li {
    flex-direction: column;
    justify-content: center;
    padding-right: 30px;
-   width: 55%;
+   width: 50%;
 }
 
 .exist-txt p {
    font-family: 'Inter', sans-serif;
-   font-size: 22px;
+   font-size: 20px;
 }
 
-.exist-txt h2 {
+.exist-txt h2, .section-heading h2 {
    font-size: 35px;
    padding-bottom: 20px;
 } 
 
-.exist-txt a {
+.exist-txt a, .section-heading a {
    text-decoration: underline;
    text-decoration-color: #ED661F;
    text-underline-offset: 12px;
    text-decoration-thickness: 5px;
+}
+
+/* Products section */
+
+#products {
+ margin: auto;
+ width: 50%;
+ text-align: center;
 }
