@@ -5,6 +5,11 @@
 
 body {
    margin: 0;
+   background-color: lightgray;
+}
+
+section {
+   background-color: white;
 }
 
 /* Header Section */
@@ -314,4 +319,12 @@ nav li {
 .more-link a:hover {
    color: #ED661F;
    text-decoration-color: black;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+   padding-left: 5%;
+   box-shadow: 5px 0px 10px gray;
+   margin-top: 30px;
 }
