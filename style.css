@@ -50,7 +50,7 @@ nav li {
     font-size: 18px;
  }
 
- nav a:hover, .login-btn a:hover, .exist-txt a {
+ nav a:hover, .login-btn a:hover {
     text-decoration: underline;
     text-decoration-color: #ED661F;
     text-underline-offset: 7px;
@@ -192,6 +192,7 @@ nav li {
 
 .exist-img {
    right: 3%;
+   align-self: flex-end;
 }
 
 .exist-img img {
@@ -217,7 +218,7 @@ nav li {
    padding-bottom: 20px;
 } 
 
-.exist-txt a, .section-heading a {
+.exist-txt a {
    text-decoration: underline;
    text-decoration-color: #ED661F;
    text-underline-offset: 12px;
@@ -226,8 +227,19 @@ nav li {
 
 /* Products section */
 
-#products {
+.section-heading {
  margin: auto;
  width: 50%;
  text-align: center;
+}
+
+.section-heading p {
+   font-size: 20px;
+}
+
+.section-heading a {
+   text-decoration: underline;
+   text-decoration-color: #ED661F;
+   text-underline-offset: 17px;
+   text-decoration-thickness: 5px;
 }
