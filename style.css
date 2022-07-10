@@ -92,14 +92,10 @@ nav li {
 
  /* Intro section */
 
- #main {
-   position: relative;
- }
-
- .intro {
+ #intro {
     padding-left: 5%;
     padding-bottom: 200px;
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     display: flex;
@@ -176,4 +172,8 @@ nav li {
 
 .stat-item h3 {
    text-align: center;
+}
+
+#why-exist {
+   position: absolute;
 }
