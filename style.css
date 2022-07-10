@@ -214,11 +214,21 @@ nav li {
 }
 
 .exist-txt h2, .section-heading h2, .product-cat h2 {
+   font-family: 'Inter', sans-serif;
    font-size: 35px;
    padding-bottom: 20px;
 } 
 
-.exist-txt a {
+.exist-txt a, .ul-txt {
+   font-family: 'Inter', sans-serif;
+   text-decoration: underline;
+   text-decoration-color: #ED661F;
+   text-underline-offset: 12px;
+   text-decoration-thickness: 5px;
+}
+
+.more-link .ul-txt {
+   font-family: 'Inter', sans-serif;
    text-decoration: underline;
    text-decoration-color: #ED661F;
    text-underline-offset: 12px;
@@ -238,6 +248,7 @@ nav li {
 }
 
 .section-heading a, .product-cat a {
+   font-family: 'Inter', sans-serif;
    text-decoration: underline;
    text-decoration-color: #ED661F;
    text-underline-offset: 17px;
@@ -253,6 +264,53 @@ nav li {
    justify-content: space-between;
 }
 
+.product p {
+   font-family: 'Inter', sans-serif;
+   font-size: 20px;
+}
+
+.product h3 {
+   font-family: 'Inter', sans-serif;
+   font-size: 20px;
+}
+
 .product img {
    width: 75%;
+}
+
+.more-link {
+   float: right;
+   margin-right: 10%;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+.more-link p, .more-link a {
+   font-family: 'Inter', sans-serif;
+   font-size: 28px;
+   font-weight: 600;
+   text-decoration: none;
+   color: black;
+}
+
+.more-link a {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.more-link i {
+   font-size: 28px;
+   font-weight: 600;
+   color: #ED661F;
+   padding-left: 20px;
+}
+
+.more-link p {
+   padding-left: 10px;
+}
+
+.more-link a:hover {
+   color: #ED661F;
+   text-decoration-color: black;
 }
