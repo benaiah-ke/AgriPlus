@@ -175,8 +175,9 @@ nav li {
 
 #main {
    position: relative;
-   left: 5%;
-   width: 95%;
+   padding-left: 5%;
+   box-shadow: 0 5px 10px gray;
+   z-index: -1;
 }
 
 
@@ -279,7 +280,7 @@ nav li {
 }
 
 .more-link {
-   float: right;
+   
    margin-right: 10%;
    padding-top: 20px;
    padding-bottom: 20px;
@@ -295,7 +296,7 @@ nav li {
 
 .more-link a {
    display: flex;
-   justify-content: space-between;
+   justify-content: flex-end;
    align-items: center;
 }
 
