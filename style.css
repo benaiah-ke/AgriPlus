@@ -213,7 +213,7 @@ nav li {
    font-size: 20px;
 }
 
-.exist-txt h2, .section-heading h2 {
+.exist-txt h2, .section-heading h2, .product-cat h2 {
    font-size: 35px;
    padding-bottom: 20px;
 } 
@@ -237,9 +237,22 @@ nav li {
    font-size: 20px;
 }
 
-.section-heading a {
+.section-heading a, .product-cat a {
    text-decoration: underline;
    text-decoration-color: #ED661F;
    text-underline-offset: 17px;
    text-decoration-thickness: 5px;
+}
+
+.product-cat {
+   margin-top: 80px;
+}
+
+.product-list {
+   display: flex;
+   justify-content: space-between;
+}
+
+.product img {
+   width: 75%;
 }
