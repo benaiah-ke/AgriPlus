@@ -219,7 +219,7 @@ nav li {
    font-size: 20px;
 }
 
-.exist-txt h2, .section-heading h2, .product-cat h2 {
+.exist-txt h2, .section-heading h2, .product-cat h2, #testimonials h2 {
    font-family: 'Inter', sans-serif;
    font-size: 35px;
    padding-bottom: 20px;
@@ -325,6 +325,48 @@ nav li {
 
 #testimonials {
    padding-left: 5%;
-   box-shadow: 5px 0px 10px gray;
+   box-shadow: 5px 0px 10px lightgray;
    margin-top: 30px;
+}
+
+#testimonials h2 {
+   padding-top: 60px;
+   padding-bottom: 20px;
+}
+
+.tst-list {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 60px;
+}
+
+.tst-item {
+   padding: 70px;
+   margin-right: 100px;
+   box-shadow: 5px 5px 10px lightgray;
+}
+
+.tst-item h2 {
+   font-family: 'Inter', sans-serif;
+   font-size: 35px;
+}
+
+.tst-profile {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+.tst-item img {
+   width: 15%;
+   padding-right: 30px;
+}
+
+.tst-item i {
+   color: #ED661F;
+}
+
+#unfilled-star {
+   color: lightgray;
 }
