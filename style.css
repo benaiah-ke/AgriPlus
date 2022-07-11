@@ -327,6 +327,8 @@ nav li {
    padding-left: 5%;
    box-shadow: 5px 0px 10px lightgray;
    margin-top: 30px;
+   margin-bottom: 0;
+   z-index: -1;
 }
 
 #testimonials h2 {
@@ -338,13 +340,17 @@ nav li {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   margin-bottom: 60px;
+   padding-bottom: 60px;
 }
 
 .tst-item {
    padding: 70px;
    margin-right: 100px;
    box-shadow: 5px 5px 10px lightgray;
+}
+
+.tst-item:hover {
+   box-shadow: none;
 }
 
 .tst-item h2 {
@@ -369,4 +375,65 @@ nav li {
 
 #unfilled-star {
    color: lightgray;
+}
+
+/* Upper footer section */
+
+#upper-footer {
+   z-index: 1;
+   background-color: black;
+   padding: auto;
+   width: 100%;
+   text-align: center;
+   border-bottom-style: solid;
+   border-bottom-width: 7px;
+   border-bottom-color: white;
+}
+
+#upper-footer h2 {
+   margin-top: 0px;
+   padding-top: 100px;
+   color: white;
+   font-family: 'Inter', sans-serif;
+   font-size: 35px;
+}
+
+#upper-footer p {
+   color: white;
+   font-family: 'Inter',sans-serif;
+   font-size: 20px;
+   padding-bottom: 30px;
+}
+
+#upper-footer input[type=email], #upper-footer input[type=email]::placeholder, #upper-footer input[type=email]:focus {
+   background-color: white;
+   font-family: 'Inter',sans-serif;
+   font-weight: 600;
+   font-size: 20px;
+   color: black;
+   border: none;
+   outline: none !important;
+   padding: 10px;
+}
+
+#upper-footer button {
+   background-color: #ED661F;
+   font-family: 'Inter',sans-serif;
+   font-weight: 600;
+   font-size: 20px;
+   color: white;
+   border: none;
+   outline: none !important;
+   padding: 10px;
+}
+
+#upper-footer button:hover {
+   background-color: white;  
+   color: #ED661F;
+}
+
+#upper-footer form {
+   display: flex;
+   justify-content: center;
+   padding-bottom: 80px;   
 }
