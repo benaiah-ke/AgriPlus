@@ -20,9 +20,9 @@
 * A computer with an active internet connection
 
 ## Technology Used
-* HTNL - which was used to build the structure of the pages.
+* HTML - which was used to build the structure of the pages.
 
-* CSS - which was used to style the pages incuding the left aside navigation bar
+* CSS - which was used to style the pages.
 
 ## License
 
@@ -54,6 +54,6 @@ SOFTWARE.
 
 Email - [Benaiah Praise Wepundi](mailto:benaiah.praise@student.moringaschool.com)
 
-Linked - [Benaiah Praise Wepundi](https://www.linkedin.com/in/benaiah-ke/)
+Linkedin - [Benaiah Praise Wepundi](https://www.linkedin.com/in/benaiah-ke/)
 
 [Go Back to the top](#AgriPlus)
