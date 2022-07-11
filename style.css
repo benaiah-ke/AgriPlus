@@ -3,6 +3,13 @@
     font-family: 'Poppins', sans-serif;
 }
 
+@media only screen and (max-width: 875px) {
+   * {
+     max-width: 875px;
+     font-size: 20px;
+   }
+ }
+
 body {
    margin: 0;
    background-color: lightgray;
@@ -170,6 +177,12 @@ nav li {
    box-shadow: 0px 3px 7px grey;
 }
 
+@media only screen and (max-width: 875px) {
+   .floating-stats {
+     display: none;
+   }
+ }
+
 .stat-item {
    padding: 20px;
 }
@@ -270,6 +283,12 @@ nav li {
    justify-content: space-between;
 }
 
+@media only screen and (max-width: 600px) {
+   .product-list {
+     flex-direction: column;
+   }
+ }
+
 .product p {
    font-family: 'Inter', sans-serif;
    font-size: 20px;
@@ -342,6 +361,12 @@ nav li {
    align-items: center;
    padding-bottom: 60px;
 }
+
+@media only screen and (max-width: 600px) {
+   .tst-list {
+     flex-direction: column;
+   }
+ }
 
 .tst-item {
    padding: 70px;
@@ -465,6 +490,7 @@ footer {
    align-items: baseline;
 }
 
+
 .footer-logo p {
    font-family: 'Inter', sans-serif;
    font-size: 18px;
@@ -506,6 +532,10 @@ footer {
 .footer-menu p {
    padding-bottom: 30px;
    text-align: left;
+}
+
+.footer-menu a:hover {
+   color: #ED661F;
 }
 
 .copyright {
